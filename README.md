@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+<!-- 請替換為你的 Demo 影片或截圖 -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+English Practice Chatbot 是一個簡單的網頁應用，旨在幫助英語學習者練習日常口說對話。透過模擬真實場景（如點餐、打招呼和問路），用戶可以在無壓力的環境中建立英語口說習慣。這個專案是我的 Side Project，目的是展示我在產品設計和執行力上的能力，作為轉職成為產品經理（PM）的一部分。
 
-## Available Scripts
+專案背景
+許多非英語母語者希望提升口說能力，但缺乏低壓力的練習環境。根據我對朋友的訪談，許多人害怕在真實對話中犯錯，因此我設計了這個 Chatbot，讓用戶可以透過模擬對話場景練習英語，同時加入圖片和語音功能，增強學習效果。
 
-In the project directory, you can run:
+功能介紹
 
-### `npm start`
+對話模組
+用戶可以從下拉選單中選擇三個模組：
+「Ordering（點餐）」
+「Greeting（日常打招呼）」
+「Asking Directions（問路）」
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+對話樹與隨機回應
+每個模組都有預設的對話樹，Chatbot 會根據用戶輸入回應，並隨機挑選回應，減少制式感，提升互動性。
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+圖片情境
+在對話中顯示相關圖片（如咖啡杯、公園），幫助用戶將詞彙與視覺聯繫，提升記憶效果。
 
-### `npm test`
+語音功能
+文字轉語音（TTS）：Chatbot 會朗讀其回應，讓用戶聽到正確發音。
+語音轉文字（STT）：用戶可以透過錄音按鈕用語音輸入，模擬真實對話。
+技術堆疊
+使用 React、JavaScript 和 CSS 開發，部署在 GitHub Pages。
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+設計思路
+用戶洞察
+問題：英語學習者缺乏口說練習機會，尤其害怕在真實對話中犯錯。
+解決方案：提供一個無壓力的 Chatbot 環境，讓用戶模擬日常對話，並透過圖片和語音功能提升學習體驗。
 
-### `npm run build`
+產品設計
+MVP 策略：選擇三個常見場景（點餐、打招呼、問路）作為最小可行產品（MVP），驗證用戶接受度。
+功能優先級：先實現核心對話功能，再加入圖片和語音，提升互動性。
+未來計畫：擴展更多模組（如購物、旅行）、加入語法檢查和進階語音功能（如發音評估）。
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+技術實現
+前端：使用 React 管理狀態和 UI，Speech Synthesis API 實現 TTS，Speech Recognition API 實現 STT。
+設計考量：保持介面簡潔，聚焦於對話和圖片展示，確保語音功能易於使用。
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+安裝與使用
+線上 Demo
