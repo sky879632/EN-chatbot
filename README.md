@@ -1,6 +1,6 @@
 # English Practice Chatbot
 
-![Chatbot Demo](https://example.com/chatbot-demo.gif)
+![Chatbot Demo](https://lurl.cc/rCaMV)
 
 **English Practice Chatbot** 是一個簡單的網頁應用，旨在幫助英語學習者練習日常口說對話。透過模擬真實場景（如點餐、打招呼和問路），用戶可以在無壓力的環境中建立英語口說習慣。這個專案是我的 Side Project，目的是展示我在產品設計和執行力上的能力，作為轉職成為產品經理（PM）的一部分。
 
@@ -47,9 +47,9 @@
 ## 安裝與使用
 
 ### 線上 Demo
-- [GitHub Pages 連結](https://yourusername.github.io/english-practice-chatbot/)
+- [GitHub Pages 連結](https://sky879632.github.io/EN-chatbot/)
 
 ### 本地運行
 1. 克隆專案：
    ```bash
-   git clone https://github.com/yourusername/english-practice-chatbot.git
+   git clone https://github.com/sky879632/EN-chatbot.git
